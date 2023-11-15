@@ -1,0 +1,116 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+ul,ol{
+   list-style:none;
+}
+a{
+   text-decoration: none;
+}
+:root{
+  --primaryfont: 'Abril Fatface', serif;
+  --secondaryfont:'Arimo', sans-serif;
+  --primarycolor:#06baef;
+  --secondarycolor:#202222;
+  --thirdcolor:#959295;
+  --fourthcolor:#8b8b8b;
+}
+.container{
+   width:1170px;
+   margin: auto;
+}
+.row{
+   display: flex;
+   text-wrap:wrap;
+}
+
+.button{
+    background-color:white;
+    padding:10px;
+    border-radius:5px;
+    border:2px solid #06baef;
+ }
+/* ------------------nav start----------------- */
+nav .row{
+   align-items: center;
+   
+}
+.logo{
+   width:30%;
+   margin-top:-50px;
+}
+.menu{
+   width:70%;
+}
+nav{
+   padding:20px 0;
+}
+nav ul li{
+   display: inline-block;
+   padding:40px 20px;
+}
+nav ul li a{
+   color:var(--thirdcolor);
+   font-family:var(--secondaryfont);
+   font-size:16px;
+   font-weight: 400;
+
+}
+.button{
+   background-color:white;
+   padding:10px;
+   border-radius:5px;
+   border:2px solid #06baef;
+}
+nav li:hover .button{
+   background-color:var(--primarycolor);
+   color:#fff;
+
+}
+nav ul li:hover a{
+   color:var(--primarycolor);
+}
+
+
+/* ----------------nav ends here---------------  */
+
+/* ----------------banner start---------------- */
+#banner{
+    height:600px;
+    background-color:#fef8ff ;
+}
+#banner .row{
+    height:600px;
+    align-items: center;
+}
+
+.banner-content .text{
+    width:50%;
+}
+.banner-content .image{
+    width:50%;
+    padding-left:200px;
+}
+.text h1{
+    color:var(--secondarycolor);
+    font-family:var(--primaryfont);
+    font-size:58px;
+    font-weight: 400;
+}
+.text p{
+    color:#444444;
+    font-family:var(--secondaryfont);
+    font-size:18px;
+    font-weight: 400;
+}
+/* -----------------banner ends------------------ */
+
+/* -------------popular categories starts here-----------  */
+
+
+
+
+/* -------------popular categories ends here-------------  */
